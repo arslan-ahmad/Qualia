@@ -2,4 +2,6 @@
     <string name="app_name">Qualia</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_network">Network</string>
+    <string name="title_activity_nw_probe">NwProbe</string>
 </resources>
