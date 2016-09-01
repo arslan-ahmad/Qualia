@@ -10,4 +10,59 @@
     tools:showIn="@layout/activity_detail">
 
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="5">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Profile"
+            android:id="@+id/userprofilebutton"
+            android:layout_weight="1"
+            android:background="#09c"
+            />
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Context"
+            android:id="@+id/contextbutton"
+            android:layout_weight="1"
+            android:background="#690"/>
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resource and System"
+            android:id="@+id/resourcebutton"
+            android:layout_weight="1"
+            android:background="#93c" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Application"
+            android:id="@+id/applicationbutton"
+            android:layout_weight="1"
+            android:background="#f80"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Network"
+            android:id="@+id/networkbutton"
+            android:background="#c00"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
 </RelativeLayout>
